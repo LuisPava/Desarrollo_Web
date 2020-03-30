@@ -1,8 +1,10 @@
 .myDiv{
   width: 300px;
-  height: 150px;
-  padding: 10px;
-  margin: 50px auto;
-  background-color: blueviolet;
-  border-radius: 2px;
+  height: 200px;
+  margin: 80px auto;
+  border: 10px auto;
+  padding: 5px auto;
+
+  background-color: #ffd01c;
+  border-radius: 10px;
 }

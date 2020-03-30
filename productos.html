@@ -1,27 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Web</title>
-    <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8">
+  <title>Web</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/vendor/jquery-3.4.1.min.js"></script>
 
 </head>
-<body>
+<body onload="horaActual()">
 <div class="myDiv">
-<table>
-  <th colspan="2"><h4>Desarrollo Web</h4></th>
-  <tr>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td colspan="2"></td>
-  </tr>
-</table>
+  <table>
+    <th colspan="2"><h4>Desarrollo Web</h4></th>
+    <tr>
+      <td><label for="txtUsuario"></label></td>
+      <td><input type="text" name="txtUsuario" id="txtUsuario"></td>
+    </tr>
+    <tr>
+      <td><label for="txtHora"></label></td>
+      <td><input type="text" name="txtHora" id="txtHora"></td>
+    </tr>
+    <tr>
+      <td colspan="2"><input type="button" id="btnRegistrar" name="btnRegistrar" value="Registar"></td>
+    </tr>
+  </table>
 </div>
+
 </body>
 </html>
+<script src="js/base.js"></script>
+
